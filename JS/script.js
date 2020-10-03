@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".nav-item a, #scroll-back-up a , #entete a, .redirection-text a").on("click", function(event){
+    $(".page-scroll, #scroll-back-up a").on("click", function(event){
     
         event.preventDefault();
         var hash = this.hash;

@@ -58,7 +58,7 @@ p{
     width: 100%;
 }
 #entete .entete-background{
-    background-image: url("../images/hands-world.jpg");
+    background-image: url("../../Sources/hands-world.jpg");
     background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -157,10 +157,16 @@ p{
 
 /* MENU */
 .navbar {
+    width: 100%;
     background-color: #A9CCE3 ;
+    font-size: 16px;
+    text-transform: none;
+    font-family: 'Zilla Slab', serif;
+}
+.navbar-main{
+    clear: both;
     font-size: 20px;
     text-transform: uppercase;
-    font-family: 'Zilla Slab', serif;
     border-bottom: 1px solid #5D6D7E ;
     padding: 0px;
 }
@@ -226,6 +232,39 @@ p{
     font-size: 16px;
     color: #5D6D7E !important;
     border-style: none;
+}
+.nav-lang{
+    padding-bottom: 0px !important;
+}
+.nav-lang .thin-nav{
+    padding-bottom: 0px;
+}
+.nav-lang a{
+    color: #5D6D7E;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-lang a:hover{
+    color: #3f3f59;
+}
+.flag-pt{
+    background-image: url(../../Sources/flags/portugal-icon.png);
+}
+.flag-fr{
+    background-image: url(../../Sources/flags/france-icon.png);
+}
+.flag-en{
+    background-image: url(../../Sources/flags/uk-icon.png);
+}
+.flag {
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    float: left;
+    height: 16px;
+    margin: 2px 6px 0 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 16px;
 }
 
 /* APPRENDER */
@@ -295,6 +334,7 @@ p{
 #accompagne h2{
     text-align: center;
     color: #5D6D7E;
+    margin-top: 8px;
 }
 #accompagne p{
     margin-bottom: 40px;
@@ -307,7 +347,7 @@ p{
     margin-top: 0px;
 }
 #workshop .montage{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 #workshop img{
     width: 100%;
@@ -372,6 +412,7 @@ p{
 #about-us h2{
     text-align: center;
     color: #5D6D7E;
+    margin-top: 8px;
 }
 #about-us .quote{
     font-size: 18px;
@@ -604,6 +645,7 @@ footer img{
 #grupo h2{
     text-align: center;
     color: #5D6D7E;
+    margin-top: 8px;
 }
 #grupo p{
     margin-bottom: 40px;
@@ -641,6 +683,7 @@ footer img{
 #empresas h2{
     text-align: center;
     color: #5D6D7E;
+    margin-top: 8px;
 }
 
 /* CONCLUSION */
